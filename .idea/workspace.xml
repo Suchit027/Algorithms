@@ -32,7 +32,7 @@
       </branch-storage>
     </excluded-from-favorite>
     <option name="RECENT_COMMON_BRANCH" value="Suchit's-CV" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Computer-Vision" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ML-and-CV-Project" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -61,8 +61,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.1.executor": "Run",
+    "Python.1.executor": "Debug",
     "Python.2.executor": "Debug",
+    "Python.FAST.executor": "Run",
+    "Python.HOG.executor": "Run",
+    "Python.SIFT.executor": "Run",
     "Python.acne detection.executor": "Run",
     "Python.app.executor": "Run",
     "Python.aq1.executor": "Run",
@@ -72,10 +75,19 @@
     "Python.canny edge.executor": "Run",
     "Python.color based segmentation.executor": "Run",
     "Python.combining images.executor": "Debug",
+    "Python.euqi.executor": "Debug",
     "Python.example.executor": "Run",
     "Python.gamma correction.executor": "Run",
     "Python.global thresholding.executor": "Run",
+    "Python.hist equi.executor": "Run",
+    "Python.hist spec.executor": "Run",
+    "Python.histogram.executor": "Run",
+    "Python.hough.executor": "Run",
+    "Python.hsv.executor": "Debug",
+    "Python.local hist.executor": "Run",
     "Python.log transform.executor": "Run",
+    "Python.number plate detection (1).executor": "Run",
+    "Python.number plate detection.executor": "Run",
     "Python.practise.executor": "Run",
     "Python.q1.executor": "Debug",
     "Python.q2.executor": "Run",
@@ -83,12 +95,16 @@
     "Python.q4.executor": "Run",
     "Python.q5.executor": "Run",
     "Python.q6.executor": "Debug",
+    "Python.sharpening.executor": "Run",
+    "Python.test image editor.executor": "Run",
     "Python.test.executor": "Run",
     "Python.testing rgb.executor": "Run",
+    "Python.vehicle detection (1).executor": "Run",
+    "Python.vehicle detection.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Suchit/Desktop/Computer-Vision/lab2",
+    "last_opened_file_path": "C:/Users/Suchit/Desktop/Computer-Vision/lab5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -107,12 +123,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Suchit\Desktop\Computer-Vision\lab5" />
       <recent name="C:\Users\Suchit\Desktop\Computer-Vision\lab2" />
       <recent name="C:\Users\Suchit\Desktop\Computer-Vision\lab4" />
       <recent name="C:\Users\Suchit\Desktop\Weekly-uploads-for-students-BY2024\Week 1 Batch 1\220962003" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Suchit\Desktop\ML-and-CV-Project\Suchit's CV\Number plate OCR" />
+      <recent name="C:\Users\Suchit\Desktop\ML-and-CV-Project\Suchit's CV\Vehicle detection" />
+      <recent name="C:\Users\Suchit\Desktop\ML-and-CV-Project\Suchit's CV" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.global thresholding">
+  <component name="RunManager" selected="Python.number plate detection (1)">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ENV_FILES" value="" />
@@ -136,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="canny edge using module" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="FAST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Computer-Vision" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,12 +167,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Computer-Vision/lab4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Computer-Vision/lab5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Computer-Vision/lab4/canny edge using module.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Computer-Vision/lab5/FAST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="canny edge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="HOG" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Computer-Vision" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,12 +190,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Computer-Vision/lab4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Computer-Vision/lab5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Computer-Vision/lab4/canny edge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Computer-Vision/lab5/HOG.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,7 +204,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="color based segmentation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SIFT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Computer-Vision" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,12 +213,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Computer-Vision/lab4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Computer-Vision/lab5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Computer-Vision/lab4/color based segmentation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Computer-Vision/lab5/SIFT.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,8 +227,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="global thresholding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Computer-Vision" />
+    <configuration name="number plate detection (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ML-and-CV-Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,12 +236,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Computer-Vision/lab4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ML-and-CV-Project/Suchit's CV/Number plate OCR" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Computer-Vision/lab4/global thresholding.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ML-and-CV-Project/Suchit's CV/Number plate OCR/number plate detection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,10 +252,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.global thresholding" />
-        <item itemvalue="Python.canny edge using module" />
-        <item itemvalue="Python.color based segmentation" />
-        <item itemvalue="Python.canny edge" />
+        <item itemvalue="Python.number plate detection (1)" />
+        <item itemvalue="Python.FAST" />
+        <item itemvalue="Python.HOG" />
+        <item itemvalue="Python.SIFT" />
         <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
@@ -288,6 +310,40 @@
       <workItem from="1724522380561" duration="22041000" />
       <workItem from="1724812751742" duration="477000" />
       <workItem from="1724928668275" duration="737000" />
+      <workItem from="1725034724079" duration="188000" />
+      <workItem from="1725379228109" duration="1638000" />
+      <workItem from="1725790813960" duration="108000" />
+      <workItem from="1725801150005" duration="512000" />
+      <workItem from="1725856794045" duration="743000" />
+      <workItem from="1726058421098" duration="658000" />
+      <workItem from="1726071176336" duration="855000" />
+      <workItem from="1726140137290" duration="3515000" />
+      <workItem from="1726150222292" duration="326000" />
+      <workItem from="1726152637291" duration="5090000" />
+      <workItem from="1726161102390" duration="1044000" />
+      <workItem from="1726281023896" duration="322000" />
+      <workItem from="1726371067491" duration="1109000" />
+      <workItem from="1726394989582" duration="1326000" />
+      <workItem from="1726417052527" duration="3000" />
+      <workItem from="1726574073896" duration="526000" />
+      <workItem from="1726575637405" duration="390000" />
+      <workItem from="1726586649884" duration="1838000" />
+      <workItem from="1726592502031" duration="50000" />
+      <workItem from="1726746884088" duration="2802000" />
+      <workItem from="1727228175457" duration="149000" />
+      <workItem from="1727406217881" duration="839000" />
+      <workItem from="1727536386014" duration="806000" />
+      <workItem from="1727612436203" duration="1395000" />
+      <workItem from="1727666922353" duration="56000" />
+      <workItem from="1727844476313" duration="2816000" />
+      <workItem from="1728384464565" duration="1398000" />
+      <workItem from="1728648061124" duration="12818000" />
+      <workItem from="1728705723719" duration="1070000" />
+      <workItem from="1728735643214" duration="13546000" />
+      <workItem from="1728754049498" duration="3074000" />
+      <workItem from="1728791888363" duration="1938000" />
+      <workItem from="1728875936738" duration="72000" />
+      <workItem from="1728895026760" duration="4631000" />
     </task>
     <task id="LOCAL-00001" summary="first lab answers plus some personal tips">
       <option name="closed" value="true" />
@@ -353,7 +409,71 @@
       <option name="project" value="LOCAL" />
       <updated>1723861621764</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit">
+      <option name="closed" value="true" />
+      <created>1725034851378</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725034851378</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit">
+      <option name="closed" value="true" />
+      <created>1725034875298</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725034875298</updated>
+    </task>
+    <task id="LOCAL-00011" summary="vehicle detection code">
+      <option name="closed" value="true" />
+      <created>1727613637295</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727613637295</updated>
+    </task>
+    <task id="LOCAL-00012" summary="partial number plate detection">
+      <option name="closed" value="true" />
+      <created>1728674196496</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728674196496</updated>
+    </task>
+    <task id="LOCAL-00013" summary="working code with comments">
+      <option name="closed" value="true" />
+      <created>1728753914631</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728753914631</updated>
+    </task>
+    <task id="LOCAL-00014" summary="with 3 line character space">
+      <option name="closed" value="true" />
+      <created>1728754890602</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728754890602</updated>
+    </task>
+    <task id="LOCAL-00015" summary="updating character space width thus improving the accuracy">
+      <option name="closed" value="true" />
+      <created>1728757295094</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728757295094</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added one more image for the character space">
+      <option name="closed" value="true" />
+      <created>1728825604527</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728825604527</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +510,14 @@
     <MESSAGE value="hi" />
     <MESSAGE value="lab1 questions of ml lab" />
     <MESSAGE value="renaming" />
-    <option name="LAST_COMMIT_MESSAGE" value="renaming" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="vehicle detection code" />
+    <MESSAGE value="partial number plate detection" />
+    <MESSAGE value="working code with comments" />
+    <MESSAGE value="with 3 line character space" />
+    <MESSAGE value="updating character space width thus improving the accuracy" />
+    <MESSAGE value="added one more image for the character space" />
+    <option name="LAST_COMMIT_MESSAGE" value="added one more image for the character space" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -402,36 +529,52 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/1.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="20" />
+          <line>22</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algorithms$vehicle_detection__1_.coverage" NAME="vehicle detection (1) Coverage Results" MODIFIED="1728788841148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-and-CV-Project/Suchit's CV/Vehicle detection" />
+    <SUITE FILE_PATH="coverage/Algorithms$number_plate_detection.coverage" NAME="number plate detection Coverage Results" MODIFIED="1728753620208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-and-CV-Project/Suchit's CV" />
     <SUITE FILE_PATH="coverage/Algorithms$q3.coverage" NAME="q3 Coverage Results" MODIFIED="1722794632654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-Lab/Lab1" />
+    <SUITE FILE_PATH="coverage/Algorithms$hist_equi.coverage" NAME="hist equi Coverage Results" MODIFIED="1726590101109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab2" />
+    <SUITE FILE_PATH="coverage/Algorithms$SIFT.coverage" NAME="SIFT Coverage Results" MODIFIED="1728895197838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab5" />
     <SUITE FILE_PATH="coverage/Algorithms$log_transform.coverage" NAME="log transform Coverage Results" MODIFIED="1722018375085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab2" />
     <SUITE FILE_PATH="coverage/Algorithms$brightest_region.coverage" NAME="brightest region Coverage Results" MODIFIED="1724585134669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab2" />
     <SUITE FILE_PATH="coverage/Algorithms$app.coverage" NAME="app Coverage Results" MODIFIED="1722748425340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab2" />
     <SUITE FILE_PATH="coverage/Algorithms$q2.coverage" NAME="q2 Coverage Results" MODIFIED="1722794434445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-Lab/Lab1" />
+    <SUITE FILE_PATH="coverage/Algorithms$HOG.coverage" NAME="HOG Coverage Results" MODIFIED="1728895294818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab5" />
     <SUITE FILE_PATH="coverage/Algorithms$q5.coverage" NAME="q5 Coverage Results" MODIFIED="1722094168819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Weekly-uploads-for-students-BY2024/Week 1 Batch 1/220962003" />
-    <SUITE FILE_PATH="coverage/Algorithms$global_thresholding.coverage" NAME="global thresholding Coverage Results" MODIFIED="1724929407156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab4" />
+    <SUITE FILE_PATH="coverage/Algorithms$global_thresholding.coverage" NAME="global thresholding Coverage Results" MODIFIED="1725379247674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab4" />
+    <SUITE FILE_PATH="coverage/Algorithms$hsv.coverage" NAME="hsv Coverage Results" MODIFIED="1726281064744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab1" />
+    <SUITE FILE_PATH="coverage/Algorithms$hist_spec.coverage" NAME="hist spec Coverage Results" MODIFIED="1726395699742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab2" />
+    <SUITE FILE_PATH="coverage/Algorithms$number_plate_detection__1_.coverage" NAME="number plate detection (1) Coverage Results" MODIFIED="1728903591050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-and-CV-Project/Suchit's CV/Number plate OCR" />
     <SUITE FILE_PATH="coverage/Algorithms$example.coverage" NAME="example Coverage Results" MODIFIED="1721646633537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab1" />
     <SUITE FILE_PATH="coverage/Algorithms$gamma_correction.coverage" NAME="gamma correction Coverage Results" MODIFIED="1724583069679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab2" />
+    <SUITE FILE_PATH="coverage/Algorithms$sharpening.coverage" NAME="sharpening Coverage Results" MODIFIED="1726587996629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab3" />
+    <SUITE FILE_PATH="coverage/Algorithms$test_image_editor.coverage" NAME="test image editor Coverage Results" MODIFIED="1728750999893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-and-CV-Project/Suchit's CV" />
+    <SUITE FILE_PATH="coverage/Algorithms$histogram.coverage" NAME="histogram Coverage Results" MODIFIED="1725790915476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab1" />
     <SUITE FILE_PATH="coverage/Algorithms$combining_images.coverage" NAME="combining images Coverage Results" MODIFIED="1722135798648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab1" />
     <SUITE FILE_PATH="coverage/Algorithms$aq2.coverage" NAME="aq2 Coverage Results" MODIFIED="1722795222910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-Lab/Lab1" />
     <SUITE FILE_PATH="coverage/Algorithms$acne_detection.coverage" NAME="acne detection Coverage Results" MODIFIED="1724586673391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-and-CV-Project/Suchit's CV" />
-    <SUITE FILE_PATH="coverage/Algorithms$canny_edge_using_module.coverage" NAME="canny edge using module Coverage Results" MODIFIED="1724929392505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab4" />
+    <SUITE FILE_PATH="coverage/Algorithms$canny_edge_using_module.coverage" NAME="canny edge using module Coverage Results" MODIFIED="1726058475755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab4" />
+    <SUITE FILE_PATH="coverage/Algorithms$euqi.coverage" NAME="euqi Coverage Results" MODIFIED="1726747096643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab2" />
     <SUITE FILE_PATH="coverage/Algorithms$q1.coverage" NAME="q1 Coverage Results" MODIFIED="1722947965209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-Lab/Lab2" />
     <SUITE FILE_PATH="coverage/Algorithms$q4.coverage" NAME="q4 Coverage Results" MODIFIED="1722794862082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-Lab/Lab1" />
     <SUITE FILE_PATH="coverage/Algorithms$test.coverage" NAME="test Coverage Results" MODIFIED="1724585140444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab2" />
-    <SUITE FILE_PATH="coverage/Algorithms$1.coverage" NAME="1 Coverage Results" MODIFIED="1724813095573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
+    <SUITE FILE_PATH="coverage/Algorithms$hough.coverage" NAME="hough Coverage Results" MODIFIED="1726071927987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab4" />
+    <SUITE FILE_PATH="coverage/Algorithms$1.coverage" NAME="1 Coverage Results" MODIFIED="1728791923906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/Algorithms$color_based_segmentation.coverage" NAME="color based segmentation Coverage Results" MODIFIED="1724929386150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab4" />
     <SUITE FILE_PATH="coverage/Algorithms$practise.coverage" NAME="practise Coverage Results" MODIFIED="1722515227622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-Lab/Lab2" />
+    <SUITE FILE_PATH="coverage/Algorithms$local_hist.coverage" NAME="local hist Coverage Results" MODIFIED="1726396266776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab2" />
     <SUITE FILE_PATH="coverage/Algorithms$2.coverage" NAME="2 Coverage Results" MODIFIED="1721719188489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
     <SUITE FILE_PATH="coverage/Algorithms$testing_rgb.coverage" NAME="testing rgb Coverage Results" MODIFIED="1722065555640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab1" />
     <SUITE FILE_PATH="coverage/Algorithms$canny_edge.coverage" NAME="canny edge Coverage Results" MODIFIED="1724928709640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab4" />
     <SUITE FILE_PATH="coverage/Algorithms$aq1.coverage" NAME="aq1 Coverage Results" MODIFIED="1722794868914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-Lab/Lab1" />
+    <SUITE FILE_PATH="coverage/Algorithms$vehicle_detection.coverage" NAME="vehicle detection Coverage Results" MODIFIED="1728660423013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ML-and-CV-Project/Suchit's CV" />
     <SUITE FILE_PATH="coverage/Algorithms$q6.coverage" NAME="q6 Coverage Results" MODIFIED="1722096181907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Weekly-uploads-for-students-BY2024/Week 1 Batch 1/220962003" />
+    <SUITE FILE_PATH="coverage/Algorithms$FAST.coverage" NAME="FAST Coverage Results" MODIFIED="1728895997892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Computer-Vision/lab5" />
   </component>
 </project>
