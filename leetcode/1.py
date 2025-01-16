@@ -22,5 +22,3 @@ def canBeValid(s, locked):
             else:
                 return False
         return True
-
-canBeValid("))()))", "010100")
