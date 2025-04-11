@@ -1,24 +1,20 @@
-def canBeValid(s, locked):
-        op, cl = 0, 0
-        stack = []
-        for i in range(len(s)):
-            if s[i] == '(':
-                if locked[i] == 0:
-                    op += 1
-                stack.append(s[i])
-            else:
-                if not stack and locked[i] == '0':
-                    stack.append('(')
-                    cl += 1
-                elif not stack:
-                    return False
-                else:
-                    stack.pop()
-        if stack:
-            if op == cl:
-                return True
-            if len(stack) <= op:
-                return True
-            else:
-                return False
-        return True
+def solve():
+    target = int(input())
+    n = int(input())
+    coefficients = list(map(int, input().split()))
+    total_sum = sum(coefficients)
+    if (total_sum + target) % 2 != 0 or total_sum < target:
+        return "0"
+    k = (total_sum + target) // 2
+    dp = [0] * (k + 1)
+    dp[0] = 1
+    for i in range(n):
+        for j in range(k, coefficients[i] - 1, -1):
+            dp[j] += dp[j - coefficients[i]]
+    return f"{dp[k]}"
+
+
+if __name__ == "__main__":
+    t = int(input())
+    for test_case in range(t):
+        print(solve(), end="" if test_case == t - 1 else "\n")
